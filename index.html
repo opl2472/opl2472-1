@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">OPL2472</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">OPL2472</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#clients" onclick="toggleMenu()">Clients</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/opl2472i.jpg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1 wrapper typing-demo">Hello, I'm</p>
+      
+        <h1 class="title ">OPL2472</h1><p class="section__text__p1">OMKAR LOKHANDE</p>
+        <p class="section__text__p2">Video Editor, Memer, Cinematographer, Photographer, Coder</p>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1zaPLQHbTIygZS4lbIQp_M4dT324iSR9F/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+          src="./assets/instagram.png"
+          alt="My instagram profile"
+          class="icon"
+          onclick="location.href='https://instagram.com/opl2472/'"
+        />
+        <img
+        src="./assets/youtube.png"
+        alt="My Youtube profile"
+        class="icon"
+        onclick="location.href='https://instagram.com/opl2472/'"
+      />
+    
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/abouti.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br /> Video Editor, Memer and Social Media Head</p>
+            </div>
+        
+          </div>
+          <div class="text-container">
+            <p>
+              I have edited lots of short videos and created a lot of memes .I have been 
+              posting memes on Marathi Kida's(Marathi Youtube Channel) social media platform
+              and managing their social media  for 1 year. Recently I have edited 10+ Roast videos
+              and 65+reels for Sushant Ghadge and 50+ reels for Startup Maharashtra. 
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+<section id="clients">
+  <h1 class="title">We Have Worked with </h1>
+  <div class="details1-container">
+    <img
+    src="./assets/Mk.png"
+    alt="Education icon"
+    class="clientlogo"
+    />
+    <img
+     src="./assets/Sus.png"
+     alt="Education icon"
+     class="clientlogo"
+    />
+    <img
+      src="./assets/STARUP MAHARASHTRA.png"
+      alt="Education icon"
+      class="clientlogo"
+    />
+    <img
+       src="./assets/AALSI ENGINEER.png"
+       alt="Education icon"
+       class="clientlogo"
+    />
+    
+    <img
+       src="./assets/KHAASRETV.png"
+       alt="Education icon"
+       class="clientlogo"
+    />
+   </div>
+ </div>
+</section>
+
+    <section id="experience">
+      <h1 class="title">Experience in </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+         
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Video Editing</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Graphic Desigining</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><Main></Main>Influencer Marketing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Motion Graphics</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Social Media Handeling</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Digital Marketing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Premiere Pro</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe After Effects</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Runwayt</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Work</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/yt1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Youtube Videos</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn">   
+                <a href="YTWork.html">See More</a>
+              </button>
+              <button
+              class="btn btn-color-2 project-btn">
+              <a href="YTWork.html">10+ YT videos
+              </a>
+            
+            
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/reel.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Vertical videos</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn">             
+              <a href="Vertical.html">See More</a>
+            </button>
+            <button
+              class="btn btn-color-2 project-btn">   
+             <a href="Vertical.html">100+ Reels
+             </a> 
+            </button>
+            
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/meme.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Memes</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn">
+              
+              <a href="Memes.html">See More</a>
+            
+            
+            </button>
+            <button
+            class="btn btn-color-2 project-btn">
+            
+            <a href="Memes.html">10+ YT videos
+            </a>
+          
+          
+          </button>
+            </div>
+          </div><div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/meme.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Graphic Desigins</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn">
+              
+              <a href="Graphics.html">See More</a>
+            
+            
+            </button>
+            <button
+            class="btn btn-color-2 project-btn">
+            
+            <a href="Graphics.html">10+ YT videos
+            </a>
+          
+          
+          </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">oplokhande24@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/instagram.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/opl2472">instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 @opl2472. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
